@@ -9,5 +9,6 @@
     <Import_RootNamespace>ManejadorBD</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)FocoSQLite.cs" />
   </ItemGroup>
 </Project>

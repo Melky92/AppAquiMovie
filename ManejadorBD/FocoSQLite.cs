@@ -9,9 +9,10 @@ namespace ManejadorBD
     class FocoSQLite
     {
         private String miCadenaConexion;
-        public FocoSQLite(String dirDB)
+        public FocoSQLite(String cadenaConexion)
         {
-            miCadenaConexion = @"Data Source=" + dirDB + ";Version=3;";
+            //miCadenaConexion = @"Data Source=" + dirDB + ";Version=3;";
+            miCadenaConexion = cadenaConexion;
         }
         public void EjecutarComando(String comando)
         {
